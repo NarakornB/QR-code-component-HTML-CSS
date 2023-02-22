@@ -1,0 +1,51 @@
+body{
+    /* background-color: azure; */
+    background-color:hsl(212, 45%, 89%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container{
+    margin: auto;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color:hsl(0, 0%, 100%);    
+    width: 450px;
+    height: 650px;
+    margin: 0 auto;
+    border-radius: 15px;
+}
+
+.QR img{
+    width: 400px;
+    border-radius: 15px;  
+}
+
+.QR{
+    width: 400px;
+    margin: 0 auto;
+    /* margin-bottom: 40px; */
+}
+
+.Text1{
+    font-family: 'Outfit', sans-serif;
+    color: hsl(218, 44%, 22%);
+    font-size: 15px;
+    width: 370px;
+    text-align:center
+}
+.Text2 p{
+    font-family: 'Ubuntu', sans-serif;
+    color:#C5C8CF;
+    font-size: 19px;
+    width: 350px;
+    margin: 0;
+    text-align:center  
+}
